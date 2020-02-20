@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pedagang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zap"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/zap"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".menu.EditProfile"></activity>
+        <activity android:name=".BottomNavigation" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".model.Food" />
+        <activity android:name=".model.Seller" />
+        <activity android:name=".menu.AddFood" />
+        <activity android:name=".menu.Pesanan" />
+        <activity android:name=".menu.Feedback" />
+        <activity android:name=".menu.Feedback_Saran" />
+        <activity android:name=".menu.Feedback_Kritik" />
+        <activity android:name=".menu.MoreFragment" />
+        <activity android:name=".DetailMakanan" />
+        <activity android:name=".menu.Home"/>
+        <activity android:name=".menu.FoodAdapter" />
+        <activity android:name=".menu.ListMakanan" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

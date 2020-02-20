@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "776843120583",
+    "firebase_url": "https://zapcanteen-85553.firebaseio.com",
+    "project_id": "zapcanteen-85553",
+    "storage_bucket": "zapcanteen-85553.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776843120583:android:9063df579b3782519193e2",
+        "android_client_info": {
+          "package_name": "com.example.pedagang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776843120583-fqphf5aq7u7ser09umcm1okh3ear0ml7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pedagang",
+            "certificate_hash": "8a6302fd2cf95ffd06a2da5d66c40fed4deb4f74"
+          }
+        },
+        {
+          "client_id": "776843120583-16e09grurorodif3ife8db7me5e7isp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHeS7BevCZTYAtiWofPCU_O9ntyrbZS20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776843120583-16e09grurorodif3ife8db7me5e7isp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776843120583:android:62c3669577f039919193e2",
+        "android_client_info": {
+          "package_name": "com.example.zapcanteen_rev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776843120583-r514f36phatg7iclpr5fiuk9bqrqqt1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zapcanteen_rev",
+            "certificate_hash": "849c00ed5af1cfe94e2bac6fb855d849d68df68e"
+          }
+        },
+        {
+          "client_id": "776843120583-halmb36lba83rv3ls25f3scoukae3hq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zapcanteen_rev",
+            "certificate_hash": "8a6302fd2cf95ffd06a2da5d66c40fed4deb4f74"
+          }
+        },
+        {
+          "client_id": "776843120583-dvgma4s907f0bgrlvk3oubs1c44nrusd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zapcanteen_rev",
+            "certificate_hash": "a5de2ed9c12b029edab2683c9375d27fe0edcdb2"
+          }
+        },
+        {
+          "client_id": "776843120583-16e09grurorodif3ife8db7me5e7isp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHeS7BevCZTYAtiWofPCU_O9ntyrbZS20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776843120583-16e09grurorodif3ife8db7me5e7isp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

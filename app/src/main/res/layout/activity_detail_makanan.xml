@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_addGambar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/img_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/form1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_addGambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/sbtnama_barang"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nama Barang"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:paddingLeft="12dp"
+            android:textColor="#2C93EE"
+            android:textSize="13dp"
+
+           />
+
+
+        <EditText
+            android:id="@+id/sbtharga"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbtnama_barang"
+            android:layout_marginTop="20dp"
+            android:hint="Masukan Penjual"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:paddingLeft="12dp"
+            android:textColor="#2C93EE"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/sbtseller"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbtharga"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:hint="Masukan Harga"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:paddingLeft="12dp"
+            android:textColor="#2C93EE"
+            android:textSize="13dp" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_edt"
+        android:layout_width="200dp"
+        android:background="@color/main_color"
+        android:paddingLeft="12dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/form1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:textSize="16dp"
+        android:text="Save Change"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
